@@ -99,13 +99,13 @@ head=None
 
 # Let us create a sorted linked list to test the functions 
 # Created linked list will be 1.2.3.4.5.6.7 
-head = push(head, 7) 
-head = push(head, 6) 
+#-10,-3,0,5,9
+head = push(head, 10) 
+head = push(head, -3) 
+head = push(head, 0) 
 head = push(head, 5) 
-head = push(head, 4) 
-head = push(head, 3) 
-head = push(head, 2) 
-head = push(head, 1) 
+head = push(head, 9) 
+
 
 print("Given Linked List")
 printList(head)
